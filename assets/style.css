@@ -1,0 +1,42 @@
+.bg-color-gray {
+    background-color: #2c3e50;
+    height: 100px;
+}
+
+.bg-color-green {
+    background-color: #1abc9c;
+}
+
+.bg-color-white {
+    background-color: white;
+}
+
+.avatar {
+    width: 15%;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.sub-title {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+hr {
+    width: 10%;
+    height: 5px;
+    border: 2px solid white;
+    opacity: 1;
+}
+
+.black {
+    border-color: black;
+}
+
+.card {
+    width: calc(100% / 12 * 3);
+    height: 25%;
+}

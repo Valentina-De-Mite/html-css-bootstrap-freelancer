@@ -47,19 +47,24 @@ hr {
 }
 
 .col {
-    width: calc(100% / 12 * 3);
-    height: 25%;
-}
+    width: calc(100% / 12 * 3 - 10px;
+            height: 25%;
+    }
 
-::placeholder {
-    color: black;
-    opacity: 1;
+    ::placeholder {
+        color: black;
+        opacity: 1;
 
-}
+    }
 
+    .fa-linkedin-in,
+    .fa-twitter {
+        color: #3a546d;
+        background-color: white;
+    }
 
-/* animation */
+    /* animation */
 
-.fa-download:hover {
-    color: black;
-}
+    .fa-download:hover {
+        color: black;
+    }

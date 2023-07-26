@@ -16,7 +16,7 @@
             <nav class="navbar navbar-expand-lg pb-3 pt-3">
                 <div class="container-fluid ">
                   <a class="navbar-brand fw-bold text-white" href="#">START BOOTSTRAP</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler " type="button  " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -42,8 +42,8 @@
 
     <!-- MAIN -->
     <main>
-        <div class="m-auto w-75">
-            <section class="container-fluid text-center m-auto bg-color-green text-white">
+        <div class="container-fluid bg-color-green">
+            <section class="w-75 text-center m-auto  text-white">
                 <img class="avatar pt-5 pb-5 img-fluid" src="./assets/images/avatar.svg" alt="">
                 <p class="title t-s">START BOOTSTRAP</p>
                 <div class=" pt-3 fs-3 d-flex align-items-center justify-content-center gap-3">
@@ -57,7 +57,9 @@
                     </p>
                 </div>
             </section>
+        </div>
 
+        <div class="container-fluid bg-white">
             <section class="container-fluid text-center m-auto bg-color-white">
                 <div class="title pt-5 pb-2">
                     PORTFOLIO
@@ -88,8 +90,11 @@
                       </div>
                 </div>
             </section>
-
-            <section class="container-fluid text-center pt-5 pb-5 mb-5m-auto bg-color-green text-white">
+        </div>
+            
+            
+        </div>
+            <section class=" text-center pt-5 pb-5 mb-5m-auto bg-color-green text-white">
                 <p class="title">ABOUT</p>
                 <div class=" pt-3 fs-3 d-flex align-items-center justify-content-center gap-3">
                     <hr>
@@ -111,32 +116,42 @@
                 </button>
             </section>
 
-            <section class="container-fluid w-50 bg-color-white text-center">
-                <div class="title pt-5 pb-2">
-                    CONTACT ME
-                </div>
-                <div class=" pt-3 fs-3 d-flex align-items-center justify-content-center gap-3">
-                    <hr class="black">
-                    <i class="fa-solid fa-star"></i>
-                    <hr class="black">
-                </div>
+            <div class="container-fluid bgc-white">
+                <section class="w-50 m-auto text-center">
+                    <div class="title pt-5 pb-2">
+                        CONTACT ME
+                    </div>
+                    <div class="pt-3 fs-3 d-flex align-items-center justify-content-center gap-3">
+                        <hr class="black">
+                        <i class="fa-solid fa-star"></i>
+                        <hr class="black">
+                    </div>
+                    <div class="mb-3 text-start pt-3 ">
+                        <input type="Name" class="form-control border-0 rounded-0 border-bottom p-0" id="exampleFormControlInput1" placeholder="Name">
+                    </div>
+                    <div class="mb-3 text-start">
+                        <input type="Email" class="form-control border-0 rounded-0 border-bottom p-0" id="exampleFormControlInput1" placeholder="E-Mail Andress">
+                    </div>
+                    <div class="mb-3 text-start">
+                        <input type="Phone Number" class="form-control border-0 rounded-0 border-bottom p-0" id="exampleFormControlInput1" placeholder="Phone Number">
+                    </div>
 
+                    <div class="mb-3 text-start">
+                        <label for="exampleFormControlTextarea1" class="form-label ">Message</label>
+                        <textarea class="form-control border-0 rounded-0 border-bottom" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    
+                </section>
+                <div class="w-50 m-auto" >
+                    <a class="btn btn-success btn-sm align-content-start" href="#" role="button">
+                        Send
+                    </a>
+                </div>
                 
-                <div class="input-group flex-nowrap border-0 ">
-                    <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="addon-wrapping">
-                </div>
-                <div class="input-group flex-nowrap">
-                    <input type="text" class="form-control" placeholder="E-Mail Andress" aria-label="E-Mail" aria-describedby="addon-wrapping">
-                </div>
-                <div class="input-group flex-nowrap">
-                    <input type="text" class="form-control" placeholder="Phone Number" aria-label="Phone Number" aria-describedby="addon-wrapping">
-                </div>
-                <div class="input-group flex-nowrap">
-                    <input type="text" class="form-control" placeholder="Message" aria-label="Message" aria-describedby="addon-wrapping">
-                </div>
-               
-            </section>
-        </div>
+            </div>
+           
+        
         
     </main>
 

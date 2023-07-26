@@ -41,30 +41,23 @@ hr {
     border-color: black;
 }
 
-.card {
-    width: calc(100% / 12 * 3);
-    height: 25%;
+
+
+
+::placeholder {
+    color: black;
+    opacity: 1;
+
 }
 
-.col {
-    width: calc(100% / 12 * 3 - 10px;
-            height: 25%;
-    }
+.fa-linkedin-in,
+.fa-twitter {
+    color: #3a546d;
+    background-color: white;
+}
 
-    ::placeholder {
-        color: black;
-        opacity: 1;
+/* animation */
 
-    }
-
-    .fa-linkedin-in,
-    .fa-twitter {
-        color: #3a546d;
-        background-color: white;
-    }
-
-    /* animation */
-
-    .fa-download:hover {
-        color: black;
-    }
+.fa-download:hover {
+    color: black;
+}

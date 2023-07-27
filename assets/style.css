@@ -38,10 +38,13 @@ hr {
 }
 
 
+.navbar-toggler-icon {
+    filter: invert(10);
+}
 
-
-::placeholder {
+#contact ::placeholder {
     color: black;
+    font-weight: 400;
     opacity: 1;
 
 }
@@ -56,4 +59,9 @@ hr {
 
 .fa-download:hover {
     color: black;
+}
+
+
+.navbar-toggler-icon:hover {
+    color: rgb(255, 255, 255);
 }
